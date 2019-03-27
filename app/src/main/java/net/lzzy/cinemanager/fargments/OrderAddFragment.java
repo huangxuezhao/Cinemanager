@@ -16,14 +16,16 @@ import net.lzzy.cinemanager.R;
  * Created by lzzy_gxy on 2019/3/27.
  * Description:
  */
-public class OrderAddFragment extends Fragment {
-    public OrderAddFragment(){}
+public class OrderAddFragment extends BaseFragment {
 
-    @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.cinemas_add_order,null);
-        TextView tv=view.findViewById(R.id.fragment_add_order_tv);
-        return view;
+    protected void populate() {
+  TextView tv=find(R.id.fragment_add_order_tv);
+    }
+
+    @Override
+    public int getLayoutRes() {
+        return R.layout.cinemas_add_order;
     }
 }
+
