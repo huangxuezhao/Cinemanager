@@ -5,16 +5,17 @@
     android:layout_gravity="center_vertical|center_horizontal"
     android:background="@color/background"
     android:orientation="vertical"
-    android:layout_marginTop="30dp">
+    >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:background="@color/indicator_color"
         android:text="新影院"
         android:layout_marginStart="10dp"
 
-        android:textColor="@android:color/black"
+        android:textColor="@color/color_text_02"
         android:textSize="30sp" />
     <LinearLayout
         android:layout_width="wrap_content"

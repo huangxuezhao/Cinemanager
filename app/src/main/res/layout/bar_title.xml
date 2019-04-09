@@ -31,7 +31,7 @@
             tools:text="我的订单" />
 
         <SearchView
-            android:id="@+id/main_sv_search"
+            android:id="@+id/bar_title_search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:queryHint="请输入关键词搜索" />
